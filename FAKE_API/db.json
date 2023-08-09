@@ -1,0 +1,13 @@
+{
+  "posts":[
+    {"id":1, "title":"lorem One", "body":"lorem sadsa dasdAlorem sadsa dasdAlorem sadsa dasdAlorem sadsa dasdA"},
+    {"id":2, "title":"lorem Two", "body":"34324324234234234324324324324"},
+    {"id":3, "title":"lorem Three", "body":"@$#$@$@#$#$#@$"}
+  ],
+ "coments":[
+    {"id":1, "postId":1, "text":"dasdasdsadasdsadas"},
+    {"id":2, "postId":2, "text":"dasdasdsadasdsadas"},
+    {"id":3, "postId":3, "text":"dasdasdsadasdsadas"}
+ ]
+}
+

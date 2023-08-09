@@ -1,0 +1,57 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "src/assets/fonts/Montserrat-Bold.ttf",
+      "sha1": "04052dc3b846609216de1e0cbcec337c6b6e74f6"
+    },
+    {
+      "path": "src/assets/fonts/Montserrat-Light.ttf",
+      "sha1": "6f21894a80049259ef71fcba135218695b41b67a"
+    },
+    {
+      "path": "src/assets/fonts/Montserrat-Medium.ttf",
+      "sha1": "6b57d12e018c64352e202f8ef3bf7f431f76d935"
+    },
+    {
+      "path": "src/assets/fonts/Montserrat-Regular.ttf",
+      "sha1": "de57aa03e4821fdbe6c34ec2c895e8b5c914e837"
+    },
+    {
+      "path": "src/assets/fonts/Montserrat-SemiBold.ttf",
+      "sha1": "8580dec824bbdb6ce24d04d3aaf360776339f0a7"
+    },
+    {
+      "path": "src/assets/fonts/SofiaProBold.ttf",
+      "sha1": "f6a41518fe7f8d74fe23f0dd8d832e9d659f935d"
+    },
+    {
+      "path": "src/assets/fonts/SofiaProLight.ttf",
+      "sha1": "0a69be503c60aa844b0364d2fa7d31c4ea44adfc"
+    },
+    {
+      "path": "src/assets/fonts/SofiaProMedium.ttf",
+      "sha1": "0eefbc3d8cf460fd5e69cf7ddbb9042dd956f3f2"
+    },
+    {
+      "path": "src/assets/fonts/SofiaProRegular.ttf",
+      "sha1": "3725c662e94be986b5025e978975643d5b097b15"
+    },
+    {
+      "path": "src/assets/fonts/SofiaProSemiBold.ttf",
+      "sha1": "55eaccc2855cd3dc0bf95416526cbb1864a2ea1c"
+    },
+    {
+      "path": "src/assets/fonts/ubuntu-light.ttf",
+      "sha1": "5f88f07d61cb63e065f565c3ace8fd12394e071b"
+    },
+    {
+      "path": "src/assets/fonts/ubuntu-medium.ttf",
+      "sha1": "8f9552f4661c80d13082dbf72a38ab4585d0b8a9"
+    },
+    {
+      "path": "src/assets/fonts/ubuntu-regular.ttf",
+      "sha1": "31b6449384c3fe8d10a483814fe68302dc05485f"
+    }
+  ]
+}
