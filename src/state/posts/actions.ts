@@ -7,7 +7,7 @@ export const getPostsAction = createAsyncThunk<IPosts>(
   async () => {
     try {
       const { data: response } = await axios.get<IPosts>(
-        'https://my-json-server.typicode.com/KarimovAbdullo/testApp/posts',
+        'https://my-json-server.typicode.com/KarimovAbdullo/myTask/posts',
       )
 
       return response
@@ -25,7 +25,7 @@ export const addNewPost = createAsyncThunk(
   'posts/addNewPost',
   async (newPost: NewPost) => {
     const response = await axios.post(
-      'https://my-json-server.typicode.com/KarimovAbdullo/testApp/posts',
+      'https://my-json-server.typicode.com/KarimovAbdullo/myTask/posts',
       newPost,
     )
     return response.data
@@ -36,7 +36,7 @@ export const deletePost = createAsyncThunk(
   'posts/deletePost',
   async (postId: number) => {
     await axios.delete(
-      `https://my-json-server.typicode.com/KarimovAbdullo/testApp/posts/${postId}`,
+      `https://my-json-server.typicode.com/KarimovAbdullo/myTask/posts/${postId}`,
     )
     return postId
   },
@@ -46,7 +46,7 @@ export const fetchComments = createAsyncThunk(
   'comments/fetchComments',
   async (postId: number) => {
     const response = await fetch(
-      `https://my-json-server.typicode.com/KarimovAbdullo/testApp/comments?postId=${postId}`,
+      `https://my-json-server.typicode.com/KarimovAbdullo/myTask/comments?postId=${postId}`,
     )
     const data = await response.json()
     return data
